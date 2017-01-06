@@ -1,0 +1,245 @@
+.art-cakes {
+    
+    width: 100%;
+    height: 750px;
+    
+    margin: 0;
+    padding: 0;
+    
+    background-color: #ffffff;
+    background-image: url(../img/bg/bg-texture.jpg);
+    
+}
+
+.art-cakes__article,
+.art-cakes__gallery {
+    
+    float: left;
+    
+    width: 630px;
+    margin: 0;
+    
+}
+
+.art-cakes__article {
+    
+    padding-top: 100px;
+    
+    text-align: center;
+    
+}
+
+.art-cakes__title {
+    
+    margin: 0;
+    margin-top: -2px;
+    margin-bottom: 12px;
+    padding-left: 3px;
+    
+    font-size: 48px;
+    line-height: 30px;
+    
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    
+    color: #56534c;
+    
+}
+
+.art-cakes__article p {
+    
+    margin: 0 60px;
+    padding-left: 1px;
+    
+    font-size: 14px;
+    line-height: 24px;
+    
+    letter-spacing: 0.12em;
+    color: #56534c;
+    
+}
+
+.art-cakes__article .art-cakes__slogan {
+    
+    margin: 0;
+    margin-bottom: 53px;
+    padding-left: 3px;
+    
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 700;
+    
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #a47d5e;
+    
+}
+
+.art-cakes__article .art-cakes__chef {
+    
+    margin-top: 35px;
+    margin-bottom: 62px;
+    padding-left: 5px;
+    
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #56534c;
+    
+}
+
+.art-cakes__article .art-cakes__author {
+    
+    position: relative;
+    
+    height: 60px;
+    margin: 0 129px;
+    
+}
+
+.art-cakes__author .firstname {
+    
+    float: left;
+    width: 100px;
+    
+}
+
+.art-cakes__author .lastname {
+    
+    float: right;
+    width: 100px;
+    
+}
+
+.art-cakes__author .firstname,
+.art-cakes__author .lastname {
+    
+    width: 111px;
+    padding: 14px 0;
+    
+    border-top: 1px solid #d7d5ca;
+    border-bottom: 1px solid #d7d5ca;
+    
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.025em;
+    
+    color: #56534c;
+    
+}
+
+.art-cakes__author .avatar {
+    
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    width: 100px;
+    height: 100px;
+    
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    
+}
+
+.art-cakes__gallery {
+    
+    position: relative;
+    
+    float: right;
+    padding-top: 100px;
+    
+    font-size: 0;
+    line-height: 1px;
+    
+}
+
+.art-cakes__image {
+    
+    position: relative;
+    display: inline-block;
+    
+    width: 295px;
+    height: 250px;
+    
+    margin: 10px;
+    padding: 0;
+    
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    
+}
+
+.art-cakes__image img {
+    
+    width: 295px;
+    height: auto;
+    
+}
+
+.art-cakes__image::before {
+    
+    position: absolute;
+    top: 6px;
+    bottom: 6px;
+    left: 6px;
+    right: 6px;
+    
+    content: "";
+    display: inline-block;
+    
+    border: 5px solid #ffffff;
+    
+}
+
+.art-cakes__article blockquote {
+    
+    width: 406px;
+    height: 95px;
+    
+    margin: 0 auto;
+    margin-top: 45px;
+    
+    background-color: transparent;
+    background-image: url(../img/bg/blockquote.png);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.art-cakes__decor {
+    
+    position: absolute;
+    top: 245px;
+    left: 175px;
+    
+    width: 279px;
+    height: 279px;
+    
+    color: #c9b176;
+    background-color: transparent;
+    background-image: url(../img/bg/bg-tastes.png);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    opacity: 0.93;
+    
+}
+
+.art-cakes__decor span {
+    
+    display: inline-block;
+    padding: 0px 20px;
+    padding-top: 90px;
+    
+    font-size: 30px;
+    line-height: 36px;
+    
+    text-transform: uppercase;
+    text-align: center;
+    
+}

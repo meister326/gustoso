@@ -1,0 +1,8 @@
+https://www.google.com/fonts#UsePlace:use/Collection:Alegreya
+
+FONTS:
+1. Alegreya Regular;
+2. Alegreya Bold;
+3. Scriptina;
+4. ProximaNova Regular;
+5. PlayfairDisplay Bold.

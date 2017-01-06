@@ -1,0 +1,47 @@
+.brand-bar {
+    
+    float: left;
+    width: 200px;
+    
+    margin: 0;
+    margin-right: 10px;
+    
+}
+
+.brand-logo {
+    
+    padding: 0;
+    padding-top: 18px;
+    padding-bottom: 1px;
+    
+}
+
+.brand-logo__image {
+    
+    width: 140px;
+    height: 44px;
+    
+    margin: 0;
+    padding: 0;
+    
+    border: none;
+    outline: none;
+    
+}
+
+.page-footer .brand-bar {
+    
+    width: 190px;
+    height: 70px;
+    margin: 0 20px;
+    
+    text-align: center;
+    overflow: hidden;
+}
+
+.page-footer .brand-logo {
+    
+    padding: 0;
+    padding-top: 23px;
+    
+}

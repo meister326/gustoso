@@ -1,0 +1,277 @@
+.gustoso-recipe {
+    
+    width: 100%;
+    height: 846px;
+    
+    padding-top: 104px;
+    
+    background-color: #f3f1e9;
+    background-image: url("../img/bg/bg-recipe.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    
+    overflow: hidden;
+    
+}
+
+.gustoso-recipe__title {
+    
+    margin: 0;
+    margin-bottom: 12px;
+    padding: 0;
+    
+    font-size: 48px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    text-align: center;
+    
+    color: #56534c;
+    
+}
+
+.gustoso-recipe__subtitle {
+    
+    margin: 0;
+    padding: 0;
+    
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    
+    color: #a47d5e;
+    
+}
+
+.gustoso-recipe__recipe {
+    
+    float: left;
+    width: 290px;
+    
+    margin-top: -12px;
+    margin-right: 10px;
+    
+    text-align: center;
+    
+}
+
+.gustoso-recipe__ingredient {
+    
+    width: 100%;
+    margin-bottom: 56px;
+    
+}
+
+.gustoso-recipe__ingredient-img {
+    
+    display: block;
+    width: 100px;
+    height: 100px;
+    
+    margin: 0 auto;
+    margin-bottom: 19px;
+    
+    border-radius: 50%;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
+    
+}
+
+.gustoso-recipe__ingredient-name {
+    
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    
+    color: #a47d5e;
+    
+}
+
+.gustoso-recipe__ingredient-des {
+    
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    
+    color: #56534c;
+    
+}
+
+.gustoso-recipe__info {
+    
+    float: right;
+    position: relative;
+    
+    width: 840px;
+    margin-left: 10px;
+    margin-top: 80px;
+    
+}
+
+.gustoso-recipe__photo {
+    
+    display: block;
+    height: 536px;
+    
+    border: 10px solid #ffffff;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
+    
+    overflow: hidden;
+    
+}
+
+.gustoso-recipe__photo img {
+    
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.gustoso-recipe__link {
+    
+    position: absolute;
+    bottom: -17px;
+    left: -22px;
+    
+    width: 169px;
+    padding: 14px 0;
+    
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    
+    border: 1px dashed #dfc691;
+    background-color: #ffffff;
+    color: #dfc691;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
+    
+}
+
+.gustoso-recipe__link:hover {
+    
+    border: 1px dashed #a47d5e;
+    color: #a47d5e;
+    
+}
+
+.gustoso-recipe__link:active {
+    
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.75);
+    
+}
+
+.gustoso-recipe__time {
+    
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    
+    width: 200px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
+    
+}
+
+.gustoso-recipe__ready-in {
+    
+    display: block;
+    
+    width: 140px;
+    height: 140px;
+    padding: 30px;
+    margin-bottom: 1px;
+    
+    text-align: center;
+    
+    background-color: rgba(255, 255, 255, 0.8);
+    
+}
+
+.gustoso-recipe__ready-in:last-child {
+    
+    margin-bottom: 0;
+    
+}
+
+.gustoso-recipe__ready-in span {
+    
+    display: block;
+    
+    margin: 0;
+    padding: 0;
+    
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    
+}
+
+.gustoso-recipe__ready-in .top {
+    
+    margin-top: 14px;
+    margin-bottom: 11px;
+    
+    text-transform: uppercase;
+    color: #a47d5e;
+    
+}
+
+.gustoso-recipe__ready-in .number {
+    
+    margin-left: 8px;
+    
+    font-size: 60px;
+    line-height: 100%;
+    color: #979285;
+    
+}
+
+.gustoso-recipe__ready-in .bottom {
+    
+    color: #979285;
+    
+}
+
+.gustoso-recipe__ready-in.topdish-slider__ready-in {
+    
+    position: static;
+    box-shadow: none;
+    
+}
+
+.gustoso-recipe__ready-in.topdish-slider__ready-in .top {
+    
+    margin-top: 0;
+    
+}
+
+.gustoso-recipe__ready-in.topdish-slider__ready-in .number {
+    
+    font-size: 92px;
+    color: #dfc691;
+    
+}
+
+.gustoso-recipe__ready-in.topdish-slider__ready-in .bottom {
+    
+    color: #979285;
+    
+}

@@ -1,0 +1,89 @@
+.gustoso-section {
+    
+    position: relative;
+    width: 100%;
+    
+    margin: 0;
+    padding: 0;
+    
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.gustoso-promo {
+    
+    height: 900px;
+    
+    margin-top: -70px;
+    
+    background-image: url(../img/bg/bg-promo.jpg);
+    
+}
+
+.gustoso-promo::before {
+    
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+.gustoso-promo__text {
+    
+    position: relative;
+    
+    width: 903px;
+    height: 897px;
+    
+    margin: 0 auto;
+    margin-top: -65px;
+    padding: 0;
+    
+    background-color: transparent;
+    background-image: url(../img/bg/text-promo.png);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.gustoso-promo__link {
+    
+    position: absolute;
+    bottom: 215px;
+    left: 0;
+    right: 0;
+    
+    display: block;
+    
+    width: 196px;
+    padding: 12px 0;
+    padding-left: 2px;
+    margin: 0 auto;
+    
+    border: 1px dashed #9e9c93;
+    
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.3em;
+    
+    text-align: center;
+    vertical-align: middle;
+    
+    color: #ffffff;
+    background-color: rgba(86, 83, 76, 0.53);
+    
+}
+
+.gustoso-promo__link:hover {
+    
+    background-color: rgba(86, 83, 76, 0.75);
+    border: 1px dashed #ffffff;
+    
+}
